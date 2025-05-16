@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Musfira Jilani | Research</title>
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    }
+    function toggleDarkMode() {
+      document.documentElement.classList.toggle('dark');
+    }
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 transition-colors">
+  <header class="bg-white dark:bg-gray-800 shadow py-6 sticky top-0 z-50 border-b border-gray-200 dark:border-gray-700">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-between space-y-2 md:space-y-0">
+      <div class="flex items-center space-x-4 text-base text-gray-700 dark:text-gray-300">
+        <img src="assets/headshot.jpg" alt="Musfira Jilani" class="w-12 h-12 rounded-full border border-gray-300" />
+        <div>
+          <div class="font-semibold text-lg">Musfira Jilani</div>
+          <div>Lecturer in Computing, Technological University Dublin</div>
+          <div>
+            <a href="mailto:musfira.jilani@tudublin.ie" class="text-blue-600 underline">musfira.jilani@tudublin.ie</a> · 
+            <a href="https://www.linkedin.com/in/musfirajilani/" class="text-blue-600 underline" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="md:hidden flex justify-end">
+        <button onclick="toggleMenu()" class="text-gray-700 dark:text-gray-300 focus:outline-none">☰</button>
+      </div>
+      <nav class="hidden md:flex space-x-4 text-sm">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="research.html" class="hover:underline">Research</a>
+        <a href="teaching.html" class="hover:underline">Teaching</a>
+        <a href="supervision.html" class="hover:underline">Supervision</a>
+        <a href="industry.html" class="hover:underline">Industry</a>
+        <a href="blog.html" class="hover:underline">Blog</a>
+        <button onclick="toggleDarkMode()" class="text-sm px-2 py-1 border rounded">🌓</button>
+      </nav>
+    </div>
+    <div id="mobile-menu" class="md:hidden hidden mt-3 px-4 text-center text-sm space-y-1">
+      <a href="index.html" class="block hover:underline">Home</a>
+      <a href="research.html" class="block hover:underline">Research</a>
+      <a href="teaching.html" class="block hover:underline">Teaching</a>
+      <a href="supervision.html" class="block hover:underline">Supervision</a>
+      <a href="industry.html" class="block hover:underline">Industry</a>
+      <a href="blog.html" class="block hover:underline">Blog</a>
+      <button onclick="toggleDarkMode()" class="text-sm px-2 py-1 border rounded mt-2">🌓</button>
+    </div>
+  </header>
+  <main class="max-w-6xl mx-auto p-6 space-y-6">
+<main class="max-w-6xl mx-auto p-6 space-y-6">
+
+<section class="space-y-6 text-sm">
+  <h2 class="text-2xl font-semibold">Research</h2>
+
+  <h3 class="text-xl font-semibold mt-2">📚 Past Research Themes</h3>
+  <ul class="list-disc list-inside space-y-1">
+    <li>Semantic enrichment of crowdsourced maps (OpenStreetMap)</li>
+    <li>Point cloud and LIDAR processing for SLAM and semantic mapping</li>
+    <li>Driver behavior modeling using vehicle telematics</li>
+    <li>EEG signal analysis for adaptive user interfaces</li>
+    <li>Large language models for structured information extraction</li>
+    <li>Spatial analytics for infrastructure planning and urban mobility</li>
+  </ul>
+
+  <h3 class="text-xl font-semibold mt-6">🔬 Active Research Directions</h3>
+  <div>
+    <p><strong>1. Trust Modelling in HRI Using Physiological and Physical Signals</strong><br>
+    Modeling dynamic trust through real-time analysis of physiological (e.g., heart rate, EDA) and behavioral (e.g., gaze, motion, speech) signals to enable responsive robotic behavior.</p>
+  </div>
+  <div>
+    <p><strong>2. Social Robot Navigation</strong><br>
+    Designing navigation systems that align with human social expectations, accounting for space-sharing, legibility, and contextual awareness in everyday environments.</p>
+  </div>
+  <div>
+    <p><strong>3. Human-Centric AI</strong><br>
+    As <strong>Co-Chair</strong> of the MSc in <a href="https://humancentered-ai.eu/" class="text-blue-600 underline" target="_blank">Human-Centric AI (HCAIM)</a>, I lead research and proposal development on <strong>ethical, transparent, and adaptive AI systems</strong>. My work explores how design choices impact trust, usability, and social alignment — with a particular focus on how <strong>spatial context</strong> can inform intelligent system behavior.</p>
+  </div>
+
+  <p class="mt-4 text-sm text-gray-600 dark:text-gray-400">
+    📄 View my publication list on <a href="https://scholar.google.com/citations?hl=en&user=r59BzegAAAAJ&view_op=list_works" target="_blank" class="text-blue-600 underline">Google Scholar</a>.
+  </p>
+</section>
+
+  </main>
+  
+  </main>
+  <footer class="text-center text-sm text-gray-500 dark:text-gray-400 py-10 border-t border-gray-200 dark:border-gray-700">
+    © 2025 Musfira Jilani · Technological University Dublin
+  </footer>
+</body>
+</html>

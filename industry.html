@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Musfira Jilani | Industry</title>
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    }
+    function toggleDarkMode() {
+      document.documentElement.classList.toggle('dark');
+    }
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 transition-colors">
+  <header class="bg-white dark:bg-gray-800 shadow py-6 sticky top-0 z-50 border-b border-gray-200 dark:border-gray-700">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-between space-y-2 md:space-y-0">
+      <div class="flex items-center space-x-4 text-base text-gray-700 dark:text-gray-300">
+        <img src="assets/headshot.jpg" alt="Musfira Jilani" class="w-12 h-12 rounded-full border border-gray-300" />
+        <div>
+          <div class="font-semibold text-lg">Musfira Jilani</div>
+          <div>Lecturer in Computing, Technological University Dublin</div>
+          <div>
+            <a href="mailto:musfira.jilani@tudublin.ie" class="text-blue-600 underline">musfira.jilani@tudublin.ie</a> · 
+            <a href="https://www.linkedin.com/in/musfirajilani/" class="text-blue-600 underline" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="md:hidden flex justify-end">
+        <button onclick="toggleMenu()" class="text-gray-700 dark:text-gray-300 focus:outline-none">☰</button>
+      </div>
+      <nav class="hidden md:flex space-x-4 text-sm">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="research.html" class="hover:underline">Research</a>
+        <a href="teaching.html" class="hover:underline">Teaching</a>
+        <a href="supervision.html" class="hover:underline">Supervision</a>
+        <a href="industry.html" class="hover:underline">Industry</a>
+        <a href="blog.html" class="hover:underline">Blog</a>
+        <button onclick="toggleDarkMode()" class="text-sm px-2 py-1 border rounded">🌓</button>
+      </nav>
+    </div>
+    <div id="mobile-menu" class="md:hidden hidden mt-3 px-4 text-center text-sm space-y-1">
+      <a href="index.html" class="block hover:underline">Home</a>
+      <a href="research.html" class="block hover:underline">Research</a>
+      <a href="teaching.html" class="block hover:underline">Teaching</a>
+      <a href="supervision.html" class="block hover:underline">Supervision</a>
+      <a href="industry.html" class="block hover:underline">Industry</a>
+      <a href="blog.html" class="block hover:underline">Blog</a>
+      <button onclick="toggleDarkMode()" class="text-sm px-2 py-1 border rounded mt-2">🌓</button>
+    </div>
+  </header>
+  <main class="max-w-6xl mx-auto p-6 space-y-6">
+<main class="max-w-6xl mx-auto p-6 space-y-6">
+
+<section class="space-y-6 text-sm">
+  <h2 class="text-2xl font-semibold">Industry Consultation</h2>
+  <p>I collaborate with startups, industry partners, and NGOs on topics such as explainable AI, social robotics, spatial intelligence, and responsible AI applications. I am also available for advisory and consulting work aligned with these areas.</p>
+  <h3 class="text-lg font-semibold mt-4">Areas of Expertise</h3>
+  <ul class="list-disc list-inside space-y-1">
+    <li>Spatio-Temporal AI for Mapping and Mobility</li>
+    <li>Trust and Ethics in Robotics</li>
+    <li>Design of Human-Centered, Adaptive Systems</li>
+    <li>AI Education and Responsible Innovation</li>
+  </ul>
+</section>
+
+  </main>
+  
+  </main>
+  <footer class="text-center text-sm text-gray-500 dark:text-gray-400 py-10 border-t border-gray-200 dark:border-gray-700">
+    © 2025 Musfira Jilani · Technological University Dublin
+  </footer>
+</body>
+</html>
